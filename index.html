@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Casa Alves - Loja de materiais hidráulicos em Ribeirão Preto. Oferecemos produtos de qualidade e atendimento personalizado. Visite-nos!">
+    <meta name="keywords" content="materiais hidráulicos, Casa Alves, Ribeirão Preto, loja de construção">
+    <title>Casa Alves - Materiais Hidráulicos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Estilos globais */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #1a1a1a;
+            /* Fundo escuro */
+            color: #e9ecef;
+            /* Texto claro */
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Roboto', sans-serif;
+            color: #ffffff;
+            /* Títulos brancos */
+        }
+
+        a {
+            color: #0d6efd;
+            /* Links azuis */
+        }
+
+        a:hover {
+            color: #0a58ca;
+            /* Links azuis mais escuros ao passar o mouse */
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #212529 !important;
+            /* Navbar escura */
+            border-bottom: 1px solid #343a40;
+            /* Borda sutil */
+        }
+
+        /* Carousel */
+        .carousel-item img {
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .carousel-text {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        /* Botões */
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+        .btn-primary:hover {
+            background-color: #0a58ca;
+            border-color: #0a58ca;
+        }
+
+        .btn-outline-light {
+            border-color: #ffffff;
+            color: #ffffff;
+        }
+
+        .btn-outline-light:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        /* Cards (se necessário) */
+        .card {
+            background-color: #2d2d2d;
+            border: 1px solid #343a40;
+            color: #e9ecef;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #212529;
+            border-top: 1px solid #343a40;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="Logo da Loja" height="40">
+                Casa Alves
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Título Principal -->
+    <div class="container my-5 text-center bg-dark text-white py-5 rounded">
+        <h1 class="display-4 fw-bold">Bem-vindo à Casa Alves</h1>
+        <h2 class="fs-3 text-secondary mt-3">Hidráulica, Elétrica, Ferramentas e Utilidades</h2>
+        <p class="lead mt-4">Sua loja de confiança para materiais de construção, com qualidade e atendimento
+            personalizado.</p>
+
+        <!-- Imagem inserida aqui -->
+        <div class="my-2">
+            <img src="assets/foto_loja.jpg" alt="Imagem da Loja" class="img-fluid rounded shadow"
+                style="max-height: 800px;">
+        </div>
+
+        <a href="#produtos" class="btn btn-outline-light btn-lg mt-4">Conheça Nossos Produtos</a>
+    </div>
+
+    <!-- Carousel com Texto ao Lado -->
+    <div class="container my-5">
+        <h2>Nossos Produtos</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/produtos1.jpg" class="d-block w-100" alt="Produtos 1">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/produtos2.jpg" class="d-block w-100" alt="Produtos 2">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/produtos3.jpg" class="d-block w-100" alt="Produtos 3">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/produtos4.jpg" class="d-block w-100" alt="Produtos 4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/produtos5.jpg" class="d-block w-100" alt="Produtos 5">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/produtos6.jpg" class="d-block w-100" alt="Produtos 6">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/produtos7.jpg" class="d-block w-100" alt="Produtos 7">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="assets/produtos8.jpg" class="d-block w-100" alt="Produtos 8">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="carousel-text">
+                    <p>Oferecemos uma ampla variedade de materiais hidráulicos, elétricos, ferramentas e acessórios para
+                        atender às suas necessidades. Venha conferir!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="container my-5">
+
+        <p>Oferecemos uma ampla variedade de materiais hidráulicos, ferramentas e acessórios para atender às suas
+            necessidades. Além disso, também fornecemos <strong>serviços de encanador</strong> para ajudar você em suas
+            instalações e reparos.</p>
+
+        <!-- Link para o Instagram -->
+        <div class="mb-4">
+            <a href="https://www.instagram.com/casaalves.cia/" target="_blank"
+                class="btn btn-instagram d-inline-flex align-items-center gap-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"
+                    width="24">
+                Confira Nossos Produtos no Instagram
+            </a>
+        </div>
+
+        <!-- Adicione cards de produtos aqui -->
+    </section>
+
+    <style>
+        /* Estilo personalizado para o botão do Instagram */
+        .btn-instagram {
+            background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .btn-instagram:hover {
+            background: linear-gradient(45deg, #E1306C, #C13584, #833AB4, #5851DB, #405DE6);
+            color: white;
+        }
+    </style>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="container my-5">
+        <h2>Quem Somos</h2>
+        <p>A Casa Alves está no mercado há mais de 20 anos, oferecendo produtos de qualidade e um atendimento
+            diferenciado.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="container my-5">
+        <h2>Fale Conosco</h2>
+        <p>Estamos à disposição para tirar suas dúvidas e ajudar no que for necessário. Entre em contato por telefone,
+            WhatsApp ou venha nos visitar.</p>
+
+        <div class="mb-4">
+            <a href="https://wa.me/55016993472109" class="btn btn-success d-inline-flex align-items-center gap-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="24">
+                Fale Conosco no WhatsApp
+            </a>
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Google Maps -->
+    <section class="container my-5 text-center">
+        <h2>Onde Estamos</h2>
+        <p>Estamos localizados no coração de Ribeirão Preto, no centro da cidade, com fácil acesso e estacionamento
+            própio. Venha nos visitar e aproveite para conhecer nossa loja pessoalmente!</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.2064450052108!2d-47.805751400000005!3d-21.183956399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf248e12cc77%3A0xb13a0eeb1b446fbc!2sCasa%20Alves%20e%20Cia.!5e0!3m2!1spt-BR!2sbr!4v1739136506056!5m2!1spt-BR!2sbr"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <!-- Endereço, Telefone e Botão do WhatsApp na mesma linha -->
+            <div class="d-flex justify-content-center gap-3 mb-3 flex-wrap">
+                <p class="mb-0">R. Prudente de Morais, 1254 - Centro, Ribeirão Preto - SP, 14015-100</p>
+                <p class="mb-0">Telefone: (16) 99347-2109</p>
+                <a href="https://wa.me/55016993472109" class="btn btn-success d-inline-flex align-items-center gap-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="20">
+                    Fale Conosco no WhatsApp
+                </a>
+            </div>
+    
+            <!-- Horário de Funcionamento em uma linha separada -->
+            <p class="mb-0">Horário de Funcionamento: Segunda a Sexta, das 8h às 18h | Sábado, das 8h às 12h</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
